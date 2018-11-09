@@ -1,12 +1,19 @@
-header{
+div{
   background-color: #5b7989;
   color: white;
   text-align: left;
   border-radius: 10px 10px 0 0;
   text-shadow: 2px 2px 2px #02010a;
+  height: auto;
+  margin: auto;
 }
   .links a{
   float: right;
   text-decoration: none;
-
+text-shadow: 0 0 0;
+}
+@media (max-width: 1024px) {
+  a{
+    display: none;
+  }
 }
