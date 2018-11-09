@@ -1,19 +1,32 @@
-div{
-  background-color: #5b7989;
-  color: white;
-  text-align: left;
-  border-radius: 10px 10px 0 0;
+ h1{
   text-shadow: 2px 2px 2px #02010a;
-  height: auto;
-  margin: auto;
+  color: white;
+  float: left;
+
 }
-  .links a{
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  width: 100%;
+}
+  #links{
+  padding: 10px 0px;
   float: right;
   text-decoration: none;
-text-shadow: 0 0 0;
+
 }
 @media (max-width: 1024px) {
   a{
     display: none;
   }
+}
+body{
+  text-align: center;
+}
+#imagen_principal{
+  background-color: #82c3a6;
+}
+#imagen_principal .imagen1{
+  width: 80%;
 }
