@@ -5,26 +5,68 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Comenzando con la Fotografia</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <div class="contenedor" role="main">
+      <header>
 
-      <h1>Comenzando con la Fotografia</h1>
-        <navbar id="links">
-          <a href="index.html">Inicio</a>
+        <div class="menu1">
+         <h1>Comenzando con la Fotografia</h1>
+          <nav class="links">
+           <ul id="menu">
+             <li>Inicio</li>
 
-          <a href="paisajes.html">Paisajes</a>
+             <li><a class="menu_link" href="paisajes.html">Paisajes</a></li>
 
-          <a href="retratos.html">Retratos</a>
-      </navbar>
-    </header>
-    <div class="contenedor">
+             <li><a class="menu_link" href="retratos.html">Retratos</a></li>
+           </ul>
+
+        </nav>
+       </div>
+      </header>
       <div class="bloque1">
-        <img src="imagenes\imagen1.jpg">
+        <img src="imagenes\imagen1.jpg" class="principal">
       </div>
       <div class="bloque2">
-        <img src="imagenes\imagen2.jpg" class="izquierda">
-        <img src="imagenes\imagen3.jpg" class="derecha">
+        <a href="paisajes.html" target="_blank" title="Paisajes"><img src="imagenes\imagen2.jpg" class="izquierda"></a>
+        <a href="retratos.html" target="_blank" title="Retratos"><img src="imagenes\Indian-girl.jpg" class="derecha"></a>
+
        </div>
+
+      <footer>
+        <section id="footer">
+        <div class="contenedor2" role="main">
+          <div class="contacto">
+           <h2>Contacto</h2><br>
+           Santiago del Estero 286 <br>
+           Capital Federal <br>
+           Tel: 1122849360 <br>
+           sanchezviamontesantiago@gamil.com
+        </div>
+        <div class="terminos">
+          <h2>Terminos</h2>
+          Conoce nuestros terminos y condiciones
+        </div>
+        <div class="Redes">
+          <div>
+            <h2>Redes Sociales</h2><br>
+            FB: santiago.s.viamonte <br>
+            IG: santiago.s.v
+          </div>
+          </div>
+          <div class="derechos">
+            <div>
+              <h2>Derechos</h2><br>
+              Todos los derechos reservados <br>
+              Copyright 2020
+            </div>
+
+          </div>
+
+       </div>
+      </section>
+     </footer>
+     </div>
   </body>
 </html>

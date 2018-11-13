@@ -1,28 +1,22 @@
- h1{
-  text-shadow: 2px 2px 2px #02010a;
-  color: white;
-  float: left;
-
-}
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
   height: 100px;
   width: 100%;
 }
-  #links{
-  padding: 10px 0px;
-  float: right;
-  text-decoration: none;
 
-}
-@media (max-width: 1024px) {
-  a{
-    display: none;
-  }
+.menu1 #menu li{
+  float: right;
+  margin-right: 2%;
 }
 body{
   text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background-color:  #02010a;
+
+}
+img{
+  box-shadow: 2px 2px 2px #02010a;
 }
 .contenedor {
 	margin: 0 auto;
@@ -33,22 +27,130 @@ body{
 .bloque1 {
   background-color: #82c3a6;
 }
-.bloque1 img{
+.principal{
   width: 80%;
 }
 .bloque2{
   margin: 0 auto;
   width: 100%;
-	flex-flow: row wrap;
+
+  background-color: #d5c75f;
+  border: 1px;
 }
-.izquierda {
+ .bloque2 .izquierda {
   float: left;
-  width: 49%;
-  margin: 0.5%
+  width: 45%;
+  margin: 2%;
 
 }
-.derecha {
+.bloque2 .derecha {
   float: right;
-  width: 49%;
-margin: 0.5%
+  width: 45%;
+margin: 2%
+}
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+.contenedor2{
+  display: flex;
+	flex-direction:
+}
+#footer .contenedor2 div{
+  text-align: inherit;
+	padding: 10px;
+	margin: 10px;
+	width: 25%;
+
+
+}
+@media (max-width: 900px) {
+  .menu1 h1{
+    float: center;
+    text-shadow: 2px 2px 2px #02010a;
+    color: white;
+  }
+  #menu li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+	.principal {
+		width: 100%;
+		order: 1;
+	}
+
+	.bloque2 .izquierda {
+		width: 95%;
+		order: 2;
+    margin: 3%;
+
+	}
+	.bloque2 .derecha {
+		width: 95%;
+		order: 3;
+    margin: 3%;
+	}
+.contenedor2{
+  display: list-item;
+  flex-direction:
+}
+}
+
+@media (min-width: 900px) {
+  #menu li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+  }
+  .menu1 h1{
+    float: left;
+    margin-left: 2%;
+    text-shadow: 2px 2px 2px #02010a;
+    color: white;
+  }
+
+	.contenedor {
+		width: 80%;
+	}
+  .principal{
+    width: 100%
+    border: 1;
+  }
+	.izquierda {
+		width: 100%;
+    order: 2;
+
+
+	}
+	.derecha {
+		width: 100%;
+    order: 3;
+	}
+.contenedor2 div{
+  width: 100%;
+}
+}
+.bloque2 img{
+  transition: 0.5s;
+}
+.izquierda:hover {
+  transform: rotate(10deg);
+  border: 2px;
+  box-shadow: 2px 2px 2px #82c3a6;
+  display: flex;
+}
+.derecha:hover {
+  transform: translate(20px, -5px);
+  border: 2px;
+  box-shadow: 2px 2px 2px #82c3a6;
+  display: flex;
 }
