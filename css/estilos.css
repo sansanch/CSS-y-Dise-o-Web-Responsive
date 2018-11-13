@@ -79,6 +79,7 @@ footer{
     position: relative;
     text-align: center;
     color: white;
+
 }
 	.principal {
 		width: 100%;
@@ -97,8 +98,30 @@ footer{
     margin: 3%;
 	}
 .contenedor2{
-  display: list-item;
+  display: grid;
   flex-direction:
+}
+@-webkit-keyframes animacion-body{
+  0%{
+    position: relative;
+    margin-top: 150%;
+  }
+  60%{
+    position: relative;
+    margin-top: -5%;
+  }
+  100%{
+    position: rel;
+    margin-top: 0%;
+  }
+}
+#animation div{
+  animation-name: animacion-body;
+	animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	o-animation-delay: 1s;
+	animation-delay: 1s;
 }
 }
 
@@ -137,6 +160,28 @@ footer{
 	}
 .contenedor2 div{
   width: 100%;
+}
+@-webkit-keyframes animacion-body{
+  0%{
+    position: relative;
+    margin-top: 150%;
+  }
+  60%{
+    position: relative;
+    margin-top: -5%;
+  }
+  100%{
+    position: rel;
+    margin-top: 0%;
+  }
+}
+#animation div{
+  animation-name: animacion-body;
+	animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	o-animation-delay: 1s;
+	animation-delay: 1s;
 }
 }
 .bloque2 img{
