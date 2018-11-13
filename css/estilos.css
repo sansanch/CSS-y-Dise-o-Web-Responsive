@@ -58,7 +58,7 @@ footer{
 	flex-direction:
 }
 #footer .contenedor2 div{
-  text-align: inherit;
+  text-align: left;
 	padding: 10px;
 	margin: 10px;
 	width: 25%;
@@ -199,3 +199,37 @@ footer{
   box-shadow: 2px 2px 2px #82c3a6;
   display: flex;
 }
+/* A partir de aca es paisajes*/
+.contenido img{
+
+  width: 100%;
+}
+#img1 {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+
+}
+#img2, #img4, #img6 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+#img3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+#galeria {
+  display: flex;
+  flex-direction: column;
+}
+.contenido {
+	display: flex;
+	flex-direction: row;
+}
+.contenido > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+/* A partir de aca Retratos*/
