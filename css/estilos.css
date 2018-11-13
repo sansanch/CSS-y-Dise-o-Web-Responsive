@@ -81,6 +81,14 @@ footer{
     color: white;
 
 }
+#galeria {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #d5c75f;
+  border: 1px;
+}
 	.principal {
 		width: 100%;
 		order: 1;
@@ -101,6 +109,7 @@ footer{
   display: grid;
   flex-direction:
 }
+
 @-webkit-keyframes animacion-body{
   0%{
     position: relative;
@@ -183,6 +192,19 @@ footer{
 	o-animation-delay: 1s;
 	animation-delay: 1s;
 }
+.contenido {
+	display: flex;
+	flex-direction: row;
+  width: 100%;
+}
+#galeria {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70%;
+  background-color: #d5c75f;
+  border: 1px;
+}
 }
 .bloque2 img{
   transition: 0.5s;
@@ -201,8 +223,10 @@ footer{
 }
 /* A partir de aca es paisajes*/
 .contenido img{
-
-  width: 100%;
+height: 90%;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #img1 {
   -webkit-filter: blur(10px);
@@ -221,10 +245,12 @@ footer{
 #galeria {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #d5c75f;
+  border: 1px;
 }
-.contenido {
-	display: flex;
-	flex-direction: row;
+
 }
 .contenido > div {
 	text-align: center;
@@ -232,4 +258,3 @@ footer{
 	margin: 10px;
 	width: 50%;
 }
-/* A partir de aca Retratos*/
